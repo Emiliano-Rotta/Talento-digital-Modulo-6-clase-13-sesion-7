@@ -63,3 +63,35 @@ app.delete("/usuarios/:id",(req, res)=>{
 app.listen(PORT, ()=>{
     console.log(`Servidor escuchando en http://localhost:${PORT}`)
 })
+
+
+
+
+
+// // ----------------------------------------------------
+// Ejercicio 1: Gestión de Libros
+// Consigna
+// Crea una API REST que permita gestionar una lista de libros. Cada libro debe tener un id, titulo y autor. Implementa las siguientes rutas:
+
+// POST /libros: Agregar un nuevo libro. Valida que solo se envíen titulo (de tipo string) y autor (de tipo string).
+// GET /libros: Listar todos los libros.
+// PUT /libros/:id: Actualizar el título o el autor de un libro según su id.
+// DELETE /libros/:id: Eliminar un libro por su id.
+
+// Ejercicio 2: Gestión de Cursos
+// Consigna
+// Crea una API REST para gestionar una lista de cursos. Cada curso debe tener un id, nombre, duracion (en horas). Implementa las siguientes rutas:
+
+// POST /cursos: Agregar un nuevo curso, validando que el nombre (string) y duracion (número) sean correctos.
+// GET /cursos: Obtener la lista completa de cursos.
+// PUT /cursos/:id: Actualizar el nombre o la duración de un curso mediante su id.
+// DELETE /cursos/:id: Eliminar un curso por su id.
+
+// Ejercicio 3: Gestión de Empleados
+// Consigna 
+// Crea una API REST para gestionar una lista de empleados. Cada empleado debe tener un id, nombre y puesto. Implementa las siguientes rutas:
+
+// POST /empleados: Agregar un nuevo empleado, validando que se envíen únicamente nombre (string) y puesto (string).
+// GET /empleados: Obtener la lista completa de empleados.
+// PUT /empleados/:id: Actualizar el nombre o el puesto de un empleado mediante su id.
+// DELETE /empleados/:id: Eliminar un empleado por su id.
